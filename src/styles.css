@@ -1,0 +1,114 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;1,100;1,400&family=Fira+Sans+Condensed:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Josefin+Slab:wght@300;400;500&family=Poppins:wght@300;400;500;600;700;800;900&family=Zilla+Slab:ital,wght@1,300;1,400;1,500&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+font-family:"poppins";
+outline: none;
+border: none;
+background-color:black;
+}
+html{
+font-size: 62%;
+overflow: hidden;
+color: #fff;
+
+}
+
+.body{
+background:#fff;
+overflow: hidden;
+
+}
+
+
+.header{
+ position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 2rem 9%;
+background: #0000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+   
+
+}
+.logo{
+ font-size: 1.7rem;
+ color: #fff;
+ text-decoration: none;
+ font-weight: 700;
+ cursor: pointer;
+
+}
+
+.navbar a{
+color: #fff;
+font-weight: 500;
+display:inline-block;
+margin-left: 4rem;
+font-size: 1.7rem;
+}
+
+.navbar a:hover, .navbar a.active{
+color: #ef6e12;
+
+}
+#menu{
+ font-size: 3.6rem;
+ display: none;
+
+}
+.home{
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+.home-detaid h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.home-detaid h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    margin: -3px 0 ;
+    opacity: 1;
+}
+.home-detaid p{
+   
+    font-size: 1.6rem;
+    opacity: 1;
+}
+ .social-medial a{
+    display: inline-flex;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    color: #ef6e12;
+    font-size: 2rem;
+    border: 2px solid #ef6e12;
+    background: transparent;
+    justify-content: center;
+    text-decoration: none;
+    margin: 3rem 1.5rem 0;
+
+
+ }
+
+/* para java */
+.social-medial a:hover,.social-medial a.active{
+background: #ef6e12;
+color:black;
+box-shadow: 0 0 20px #ef6e12;
+}
